@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADE053C12BE7660C00FDE0CE /* _DSSL_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE053C02BE7660C00FDE0CE /* _DSSL_appApp.swift */; };
+		ADE053C32BE7660C00FDE0CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE053C22BE7660C00FDE0CE /* ContentView.swift */; };
+		ADE053C52BE7660E00FDE0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE053C42BE7660E00FDE0CE /* Assets.xcassets */; };
+		ADE053C92BE7660E00FDE0CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE053C82BE7660E00FDE0CE /* Preview Assets.xcassets */; };
+		ADE053D32BE7660F00FDE0CE /* _DSSL_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE053D22BE7660F00FDE0CE /* _DSSL_appTests.swift */; };
+		ADE053DD2BE7660F00FDE0CE /* _DSSL_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE053DC2BE7660F00FDE0CE /* _DSSL_appUITests.swift */; };
+		ADE053DF2BE7660F00FDE0CE /* _DSSL_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE053DE2BE7660F00FDE0CE /* _DSSL_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE053CF2BE7660F00FDE0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE053B52BE7660C00FDE0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE053BC2BE7660C00FDE0CE;
+			remoteInfo = "3DSSL-app";
+		};
+		ADE053D92BE7660F00FDE0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE053B52BE7660C00FDE0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE053BC2BE7660C00FDE0CE;
+			remoteInfo = "3DSSL-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADE053BD2BE7660C00FDE0CE /* 3DSSL-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3DSSL-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE053C02BE7660C00FDE0CE /* _DSSL_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DSSL_appApp.swift; sourceTree = "<group>"; };
+		ADE053C22BE7660C00FDE0CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADE053C42BE7660E00FDE0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADE053C62BE7660E00FDE0CE /* _DSSL_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _DSSL_app.entitlements; sourceTree = "<group>"; };
+		ADE053C82BE7660E00FDE0CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADE053CE2BE7660F00FDE0CE /* 3DSSL-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3DSSL-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE053D22BE7660F00FDE0CE /* _DSSL_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DSSL_appTests.swift; sourceTree = "<group>"; };
+		ADE053D82BE7660F00FDE0CE /* 3DSSL-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3DSSL-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE053DC2BE7660F00FDE0CE /* _DSSL_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DSSL_appUITests.swift; sourceTree = "<group>"; };
+		ADE053DE2BE7660F00FDE0CE /* _DSSL_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DSSL_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADE053BA2BE7660C00FDE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE053CB2BE7660F00FDE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE053D52BE7660F00FDE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADE053B42BE7660C00FDE0CE = {
+			isa = PBXGroup;
+			children = (
+				ADE053BF2BE7660C00FDE0CE /* 3DSSL-app */,
+				ADE053D12BE7660F00FDE0CE /* 3DSSL-appTests */,
+				ADE053DB2BE7660F00FDE0CE /* 3DSSL-appUITests */,
+				ADE053BE2BE7660C00FDE0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE053BE2BE7660C00FDE0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE053BD2BE7660C00FDE0CE /* 3DSSL-app.app */,
+				ADE053CE2BE7660F00FDE0CE /* 3DSSL-appTests.xctest */,
+				ADE053D82BE7660F00FDE0CE /* 3DSSL-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE053BF2BE7660C00FDE0CE /* 3DSSL-app */ = {
+			isa = PBXGroup;
+			children = (
+				ADE053C02BE7660C00FDE0CE /* _DSSL_appApp.swift */,
+				ADE053C22BE7660C00FDE0CE /* ContentView.swift */,
+				ADE053C42BE7660E00FDE0CE /* Assets.xcassets */,
+				ADE053C62BE7660E00FDE0CE /* _DSSL_app.entitlements */,
+				ADE053C72BE7660E00FDE0CE /* Preview Content */,
+			);
+			path = "3DSSL-app";
+			sourceTree = "<group>";
+		};
+		ADE053C72BE7660E00FDE0CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADE053C82BE7660E00FDE0CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADE053D12BE7660F00FDE0CE /* 3DSSL-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE053D22BE7660F00FDE0CE /* _DSSL_appTests.swift */,
+			);
+			path = "3DSSL-appTests";
+			sourceTree = "<group>";
+		};
+		ADE053DB2BE7660F00FDE0CE /* 3DSSL-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE053DC2BE7660F00FDE0CE /* _DSSL_appUITests.swift */,
+				ADE053DE2BE7660F00FDE0CE /* _DSSL_appUITestsLaunchTests.swift */,
+			);
+			path = "3DSSL-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADE053BC2BE7660C00FDE0CE /* 3DSSL-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE053E22BE7660F00FDE0CE /* Build configuration list for PBXNativeTarget "3DSSL-app" */;
+			buildPhases = (
+				ADE053B92BE7660C00FDE0CE /* Sources */,
+				ADE053BA2BE7660C00FDE0CE /* Frameworks */,
+				ADE053BB2BE7660C00FDE0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3DSSL-app";
+			productName = "3DSSL-app";
+			productReference = ADE053BD2BE7660C00FDE0CE /* 3DSSL-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADE053CD2BE7660F00FDE0CE /* 3DSSL-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE053E52BE7660F00FDE0CE /* Build configuration list for PBXNativeTarget "3DSSL-appTests" */;
+			buildPhases = (
+				ADE053CA2BE7660F00FDE0CE /* Sources */,
+				ADE053CB2BE7660F00FDE0CE /* Frameworks */,
+				ADE053CC2BE7660F00FDE0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE053D02BE7660F00FDE0CE /* PBXTargetDependency */,
+			);
+			name = "3DSSL-appTests";
+			productName = "3DSSL-appTests";
+			productReference = ADE053CE2BE7660F00FDE0CE /* 3DSSL-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADE053D72BE7660F00FDE0CE /* 3DSSL-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE053E82BE7660F00FDE0CE /* Build configuration list for PBXNativeTarget "3DSSL-appUITests" */;
+			buildPhases = (
+				ADE053D42BE7660F00FDE0CE /* Sources */,
+				ADE053D52BE7660F00FDE0CE /* Frameworks */,
+				ADE053D62BE7660F00FDE0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE053DA2BE7660F00FDE0CE /* PBXTargetDependency */,
+			);
+			name = "3DSSL-appUITests";
+			productName = "3DSSL-appUITests";
+			productReference = ADE053D82BE7660F00FDE0CE /* 3DSSL-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADE053B52BE7660C00FDE0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					ADE053BC2BE7660C00FDE0CE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					ADE053CD2BE7660F00FDE0CE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = ADE053BC2BE7660C00FDE0CE;
+					};
+					ADE053D72BE7660F00FDE0CE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = ADE053BC2BE7660C00FDE0CE;
+					};
+				};
+			};
+			buildConfigurationList = ADE053B82BE7660C00FDE0CE /* Build configuration list for PBXProject "3DSSL-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADE053B42BE7660C00FDE0CE;
+			productRefGroup = ADE053BE2BE7660C00FDE0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE053BC2BE7660C00FDE0CE /* 3DSSL-app */,
+				ADE053CD2BE7660F00FDE0CE /* 3DSSL-appTests */,
+				ADE053D72BE7660F00FDE0CE /* 3DSSL-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADE053BB2BE7660C00FDE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE053C92BE7660E00FDE0CE /* Preview Assets.xcassets in Resources */,
+				ADE053C52BE7660E00FDE0CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE053CC2BE7660F00FDE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE053D62BE7660F00FDE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADE053B92BE7660C00FDE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE053C32BE7660C00FDE0CE /* ContentView.swift in Sources */,
+				ADE053C12BE7660C00FDE0CE /* _DSSL_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE053CA2BE7660F00FDE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE053D32BE7660F00FDE0CE /* _DSSL_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE053D42BE7660F00FDE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE053DF2BE7660F00FDE0CE /* _DSSL_appUITestsLaunchTests.swift in Sources */,
+				ADE053DD2BE7660F00FDE0CE /* _DSSL_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE053D02BE7660F00FDE0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE053BC2BE7660C00FDE0CE /* 3DSSL-app */;
+			targetProxy = ADE053CF2BE7660F00FDE0CE /* PBXContainerItemProxy */;
+		};
+		ADE053DA2BE7660F00FDE0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE053BC2BE7660C00FDE0CE /* 3DSSL-app */;
+			targetProxy = ADE053D92BE7660F00FDE0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADE053E02BE7660F00FDE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADE053E12BE7660F00FDE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ADE053E32BE7660F00FDE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "3DSSL-app/_DSSL_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3DSSL-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tum.-DSSL-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADE053E42BE7660F00FDE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "3DSSL-app/_DSSL_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3DSSL-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tum.-DSSL-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADE053E62BE7660F00FDE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tum.-DSSL-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DSSL-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3DSSL-app";
+			};
+			name = Debug;
+		};
+		ADE053E72BE7660F00FDE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tum.-DSSL-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DSSL-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3DSSL-app";
+			};
+			name = Release;
+		};
+		ADE053E92BE7660F00FDE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tum.-DSSL-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3DSSL-app";
+			};
+			name = Debug;
+		};
+		ADE053EA2BE7660F00FDE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tum.-DSSL-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3DSSL-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADE053B82BE7660C00FDE0CE /* Build configuration list for PBXProject "3DSSL-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE053E02BE7660F00FDE0CE /* Debug */,
+				ADE053E12BE7660F00FDE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE053E22BE7660F00FDE0CE /* Build configuration list for PBXNativeTarget "3DSSL-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE053E32BE7660F00FDE0CE /* Debug */,
+				ADE053E42BE7660F00FDE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE053E52BE7660F00FDE0CE /* Build configuration list for PBXNativeTarget "3DSSL-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE053E62BE7660F00FDE0CE /* Debug */,
+				ADE053E72BE7660F00FDE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE053E82BE7660F00FDE0CE /* Build configuration list for PBXNativeTarget "3DSSL-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE053E92BE7660F00FDE0CE /* Debug */,
+				ADE053EA2BE7660F00FDE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADE053B52BE7660C00FDE0CE /* Project object */;
+}
